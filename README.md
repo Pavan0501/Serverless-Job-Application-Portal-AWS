@@ -1,7 +1,6 @@
 # Serverless-Job-Application-Portal-AWS
 
-A serverless job application portal built on AWS using Lambda, API Gateway, DynamoDB, and S3.  
-Applicants can submit resumes, recruiters can review applications, all powered by a scalable and cost-effective serverless architecture.  
+A serverless job application portal built on AWS using Lambda, API Gateway, DynamoDB, and S3. Applicants can submit resumes, recruiters can review applications, all powered by a scalable and cost-effective serverless architecture.  
 
 ## Overview
 
