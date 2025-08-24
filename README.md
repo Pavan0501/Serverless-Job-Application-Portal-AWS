@@ -3,7 +3,7 @@
 A serverless job application portal built on AWS using Lambda, API Gateway, DynamoDB, and S3.  
 Applicants can submit resumes, recruiters can review applications, all powered by a scalable and cost-effective serverless architecture.  
 
-### Overview
+## Overview
 
 A fully serverless job application portal designed with the following stack: 
 
@@ -11,7 +11,7 @@ Frontend--> HTML, CSS, JavaScript (static hosting on S3)
 
 Backend--> AWS Lambda (Python), API Gateway, DynamoDB, and S3 
 
-Features
+## Features
 
 - Applicants can submit details and upload resumes.
   
@@ -21,13 +21,13 @@ Features
   
 - Fully serverless architecture ensuring scalability, high availability, and low cost.
 
-Architecture Diagram
+## Architecture Diagram
 
 <img width="1676" height="964" alt="serverless-web-application" src="https://github.com/user-attachments/assets/62b73644-7fcd-4a65-81fa-5eebd9d91f8e" />
 
-How It Works
+## How it Works
 
-Applicant Portal:
+### Applicant Portal:
 
 1. Users fill out a form and upload their resume.
     
@@ -35,7 +35,7 @@ Applicant Portal:
   
 3. The Lambda function stores application details in DynamoDB and uploads resumes to S3.
 
-Recruiter Portal:
+### Recruiter Portal:
 
 1. Recruiters access a protected page to view submitted applications.
  
@@ -43,13 +43,13 @@ Recruiter Portal:
   
 3. Resumes can be accessed through secure S3 links.
 
-Configuration
+## Configuration
 
 - Update the API endpoint URLs in the frontend JavaScript as required.
   
 - To use a different S3 bucket for resumes, update the `bucketName` variable in the recruiter portal JavaScript file.
 
-Deployment
+## Deployment
 
 1. Deploy Lambda functions using AWS Console or Serverless Framework.
  
